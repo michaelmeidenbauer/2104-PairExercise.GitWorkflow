@@ -3,17 +3,29 @@
     50% {transform: rotate(180deg);}
     100% {transform: rotate(360deg);}
 }
+@keyframes blink {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes changeColor {
+    0% {color: yellow;}
+    50% {color: orange;}
+    100% {color: yellow;}
+}
 body {
     /* your styles here */
     color: teal;
     font-family: 'Permanent Marker', cursive;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    animation: blink 2s linear infinite;
   }
   
   h1, #designed-by {
     /* your styles here */
     text-align: center;
+    animation: changeColor 4s infinite;
   }
   
   .style1 {
