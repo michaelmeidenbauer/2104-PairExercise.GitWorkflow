@@ -1,0 +1,40 @@
+body {
+    /* your styles here */
+    color: teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+  }
+  
+  h1, #designed-by {
+    /* your styles here */
+    text-align: center;
+  }
+  
+  .style1 {
+    background-color: orange;
+  }
+  
+  .style2 {
+    background-color: orangered;
+  }
+  
+  .style3 {
+    background-color: red;
+  }
+  
+  .style4 {
+    background-color: purple;
+  }
+  
+  .style5 {
+    background-color: fuchsia;
+  }
+  
+  .style6 {
+    background-color: greenyellow;
+  }
+  
+  /* SETTING THE COLOR OF THE BOX TEXT */
+  .tiles .box-wrapper > a {
+    color: white;
+  }
