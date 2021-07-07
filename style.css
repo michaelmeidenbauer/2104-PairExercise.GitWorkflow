@@ -1,3 +1,8 @@
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
 body {
     /* your styles here */
     color: teal;
@@ -11,30 +16,31 @@ body {
   }
   
   .style1 {
-    background-color: orange;
+    background-color: black;
   }
   
   .style2 {
-    background-color: orangered;
+    background-color: black;
   }
   
   .style3 {
-    background-color: red;
+    background-color: black;
   }
   
   .style4 {
-    background-color: purple;
+    background-color: black;
   }
   
   .style5 {
-    background-color: fuchsia;
+    background-color: black;
   }
   
   .style6 {
-    background-color: greenyellow;
+    background-color: black;
   }
   
   /* SETTING THE COLOR OF THE BOX TEXT */
   .tiles .box-wrapper > a {
     color: white;
+    animation: spin 2s infinite linear;
   }
