@@ -20,6 +20,7 @@ body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     animation: blink 2s linear infinite;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   }
   
   h1, #designed-by {
@@ -27,29 +28,42 @@ body {
     text-align: center;
     animation: changeColor 4s infinite;
   }
+
+  #designed-by {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: violet;
+  }
+
   
   .style1 {
     background-color: black;
+    border: dotted white 10pt;
   }
   
   .style2 {
     background-color: black;
+    border: dotted white 10pt;
   }
   
   .style3 {
     background-color: black;
+    border: dotted white 10pt;
   }
   
   .style4 {
     background-color: black;
+    border: dotted white 10pt;
   }
   
   .style5 {
     background-color: black;
+    border: dotted white 10pt;
   }
   
   .style6 {
     background-color: black;
+    border: dotted white 10pt;
   }
   
   /* SETTING THE COLOR OF THE BOX TEXT */
